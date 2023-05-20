@@ -123,3 +123,6 @@ On dea.location= vac.location
 AND dea.date= vac.date
 Where dea.continent is not null
 --Order by 1,3
+
+Select *,(RollingPeopleVaccinated/Population)*100 as Percentofpopvsvac
+From PercentPopulationVaccinated2
